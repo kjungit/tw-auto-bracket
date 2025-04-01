@@ -2,13 +2,21 @@
   "name": "tw-auto-bracket",
   "displayName": "TailwindCSS Auto Bracket",
   "description": "Autocomplete custom TailwindCSS units like w200p -> w-[200px]",
-  "keywords": ["tailwind", "tailwindcss", "autocomplete", "bracket", "utility-classes"],
+  "icon": "images/icon.png",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "autocomplete",
+    "bracket",
+    "utility-classes"
+  ],
   "author": "kjungit",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
+    "Snippets",
     "Other"
   ],
   "activationEvents": [
@@ -21,10 +29,10 @@
   },
   "contributes": {},
   "scripts": {
-    "vscode:prepublish": "yarn run package",
+    "vscode:prepublish": "npm run package",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "package": "yarn run compile",
+    "package": "npm run compile",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "yarn run compile-tests && yarn run compile",
@@ -33,7 +41,7 @@
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
-    "@types/vscode": "^1.98.0",
+    "@types/vscode": "^1.60.0",
     "@typescript-eslint/eslint-plugin": "^8.28.0",
     "@typescript-eslint/parser": "^8.28.0",
     "@vscode/test-cli": "^0.0.10",
@@ -42,7 +50,8 @@
     "eslint": "^9.23.0",
     "npm-run-all": "^4.1.5",
     "typescript": "^5.8.2",
-    "vscode": "^1.1.37"
+    "vscode": "^1.1.34"
   },
-  "packageManager": "yarn@4.7.0+sha512.5a0afa1d4c1d844b3447ee3319633797bcd6385d9a44be07993ae52ff4facabccafb4af5dcd1c2f9a94ac113e5e9ff56f6130431905884414229e284e37bb7c9"
+  "packageManager": "yarn@4.7.0+sha512.5a0afa1d4c1d844b3447ee3319633797bcd6385d9a44be07993ae52ff4facabccafb4af5dcd1c2f9a94ac113e5e9ff56f6130431905884414229e284e37bb7c9",
+  "publisher": "GuardianK"
 }
