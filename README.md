@@ -11,6 +11,10 @@ A VS Code extension that automatically generates bracket syntax for Tailwind CSS
 
 ![Demo](images/demo.gif)
 
+
+https://github.com/user-attachments/assets/07a1f16c-d875-42f7-8a39-4feaf40d1b9f
+
+
 ## How to Use
 
 1. Use inside a className or class attribute.
