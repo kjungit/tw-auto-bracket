@@ -9,10 +9,10 @@ A VS Code extension that automatically generates bracket syntax for Tailwind CSS
 - Support for negative values: `border-1p` → `border-[-1px]`
 - Support for various properties: width, height, padding, margin and more
 
-![Demo](images/demo.gif)
+![autobracket](https://github.com/user-attachments/assets/3fb365b2-1b20-4ae0-a62f-97cc250fc762)
 
 
-https://github.com/user-attachments/assets/07a1f16c-d875-42f7-8a39-4feaf40d1b9f
+
 
 
 ## How to Use
