@@ -76,7 +76,6 @@ Added features X, Y, and Z.
 
 ## Following extension guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+This extension follows the [VS Code Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines) to ensure quality, performance, and compatibility with the VS Code ecosystem.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
+🔗 You can find and install this extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GuardianK.tw-auto-bracket).
