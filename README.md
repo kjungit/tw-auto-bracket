@@ -52,7 +52,7 @@ This extension doesn't add any settings to customize, it works right out of the 
 
 ## Release Notes
 
-### 1.0.3
+### 1.0.4
 
 - Enhanced to work in all string contexts, including backtick (`) templates and regular strings
 - No longer limited to className/class attributes
