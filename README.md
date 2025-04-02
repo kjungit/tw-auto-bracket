@@ -4,22 +4,18 @@ A VS Code extension that automatically generates bracket syntax for Tailwind CSS
 
 ## Features
 
-- Quick input using unit abbreviations: `w10p` → `w-[10px]`
+- Quick input using unit abbreviations: `w10px` → `w-[10px]`
 - Support for various units: px, rem, vh, vw, % and more
-- Support for negative values: `border-1p` → `border-[-1px]`
+- Support for negative values: `border-1px` → `border-[-1px]`
 - Support for various properties: width, height, padding, margin and more
 
 ![autobracket](https://github.com/user-attachments/assets/3fb365b2-1b20-4ae0-a62f-97cc250fc762)
-
-
-
-
 
 ## How to Use
 
 1. Use inside a className or class attribute.
 2. Type the property name, number, and unit abbreviation.
-   - Example: `w10p`, `h20vh`, `p5r`, `m10p`
+   - Example: `w10px`, `h20vh`, `p5r`, `m10p`
 3. Select the autocomplete suggestion or press Enter.
 
 ## Supported Property Abbreviations
@@ -33,7 +29,7 @@ A VS Code extension that automatically generates bracket syntax for Tailwind CSS
 
 ## Supported Unit Abbreviations
 
-- `p`: px (Example: `w10p` → `w-[10px]`)
+- `px`: px (Example: `w10px` → `w-[10px]`)
 - `r`: rem (Example: `w1.5r` → `w-[1.5rem]`)
 - `vh`: viewport height (Example: `h20vh` → `h-[20vh]`)
 - `vw`: viewport width (Example: `w50vw` → `w-[50vw]`)
@@ -52,7 +48,7 @@ This extension doesn't add any settings to customize, it works right out of the 
 ## Known Issues
 
 - Only works inside className or class attributes
-- Only processes patterns with a valid unit abbreviation (e.g. `w10p`, not just `w10`)
+- Only processes patterns with a valid unit abbreviation (e.g. `w10px`, not just `w10` `w10p`)
 
 ## Release Notes
 
