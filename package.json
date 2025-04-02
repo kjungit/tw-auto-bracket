@@ -1,7 +1,7 @@
 {
   "name": "tw-auto-bracket",
   "displayName": "TailwindCSS Auto Bracket",
-  "description": "Autocomplete custom TailwindCSS units like w200p -> w-[200px]",
+  "description": "Autocomplete Tailwind CSS units with bracket syntax (e.g. w10px -> w-[10px]) in any string context",
   "icon": "images/icon.png",
   "keywords": [
     "tailwind",
