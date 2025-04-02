@@ -47,10 +47,15 @@ This extension doesn't add any settings to customize, it works right out of the 
 
 ## Known Issues
 
-- Only works inside className or class attributes
+- Now works in all string contexts, including backtick (`) templates!
 - Only processes patterns with a valid unit abbreviation (e.g. `w10px`, not just `w10` `w10p`)
 
 ## Release Notes
+
+### 1.0.3
+
+- Enhanced to work in all string contexts, including backtick (`) templates and regular strings
+- No longer limited to className/class attributes
 
 ### 1.0.0
 
