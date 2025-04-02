@@ -13,7 +13,7 @@ A VS Code extension that automatically generates bracket syntax for Tailwind CSS
 
 ## How to Use
 
-1. Use inside a className or class attribute.
+1. Now supports Tailwind class names in any string, not just className!.
 2. Type the property name, number, and unit abbreviation.
    - Example: `w10px`, `h20vh`, `p5r`, `m10p`
 3. Select the autocomplete suggestion or press Enter.
@@ -47,10 +47,15 @@ This extension doesn't add any settings to customize, it works right out of the 
 
 ## Known Issues
 
-- Only works inside className or class attributes
+- Now works in all string contexts, including backtick (`) templates!
 - Only processes patterns with a valid unit abbreviation (e.g. `w10px`, not just `w10` `w10p`)
 
 ## Release Notes
+
+### 1.0.3
+
+- Enhanced to work in all string contexts, including backtick (`) templates and regular strings
+- No longer limited to className/class attributes
 
 ### 1.0.0
 
